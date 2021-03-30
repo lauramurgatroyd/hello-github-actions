@@ -3,10 +3,10 @@ description: "Greet someone"
 author: "octocat@github.com"
 
 inputs:
-  MY_NAME:
+  ACTION:
     description: "Who to greet"
     required: true
-    default: "World"
+    default: "echo 'hi'"
 
 runs:
   using: "docker"
