@@ -8,5 +8,4 @@ jobs:
       - uses: actions/checkout@v1
       # - uses: ./action-a
         with:
-          MY_NAME: "Laura"
           args: python setup.py develop && unittest
