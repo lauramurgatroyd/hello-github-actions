@@ -1,4 +1,4 @@
-name: Github Actions in Windows
+name: conda_build
 
 on: [push]
 
