@@ -20,6 +20,7 @@ jobs:
       run: |
         # Activate the base environment
         C:\Miniconda\condabin\conda.bat activate base
+        C:\Miniconda\condabin\conda.bat install -y conda-build
         C:\Miniconda\condabin\conda.bat build .
         
 
